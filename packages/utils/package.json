@@ -1,0 +1,29 @@
+{
+  "name": "@kk/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "huruikang <biubiukang>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.zjweidu.com:8686/huangqian/middleware_admin.git"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  },
+  "dependencies": {
+    "@kk/core": "^1.0.0"
+  }
+}
